@@ -47,11 +47,11 @@ python ours.py \
 ```
 
 ## How to Run
-Please first modify the root in ```MSSA_OD.sh``` and ```MSSA_Lung.sh```, and then run the following command to reproduce the results.
+Please first modify the root in ```MSSA_OD.sh``` and ```MSSA_Lung.sh```, and then run the following command.
 ```
-# Reproduce the results on the OD segmentation task
+# On the OD segmentation task
 bash MSSA_OD.sh
-# Reproduce the results on the lung segmentation task
+# On the lung segmentation task
 bash MSSA_Lung.sh
 ```
 
