@@ -3,7 +3,7 @@ This is the official PyTorch implementation of our ECCV 2026 paper "[Memory-Supp
 for Training-Free Test-Time Medical Image Segmentation](https://ieeexplore.ieee.org/abstract/document/11356288/?casa_token=_e0ORbUVTbwAAAAA:9sJ4kAaOs3E6wQnP-UDm3WH1LhxeoqbBPv9v-KYl6tpxBuIU5j717rI2LdMwjCq_KM_zhL9cDkY)".
 
 <div align="center">
-  <img width="100%" alt="MSSA Illustration" src="github/Overview.png">
+  <img width="100%" alt="MSSA Illustration" src="Overview.png">
 </div>
 
 ## Environment
