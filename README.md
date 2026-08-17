@@ -13,7 +13,7 @@ Python 3.7.0
 Pytorch 1.8.0
 CuDNN 8.0.5
 ```
-Our Anaconda environment is also available for download from ```mssa``` dir.
+Our Anaconda environment is also available for download from [Google Drive](https://drive.google.com/file/d/1fmqEl5HDHjuQ3Ih4vD81B0xOHC5fLSE7/view?usp=drive_link).
 
 Upon decompression, please move ```mssa``` to ```your_root/anaconda3/envs/```. Then the environment can be activated by ```conda activate mssa```.
 
