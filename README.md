@@ -13,9 +13,9 @@ Python 3.7.0
 Pytorch 1.8.0
 CuDNN 8.0.5
 ```
-Our Anaconda environment is also available for download from ```llr``` dir.
+Our Anaconda environment is also available for download from ```mssa``` dir.
 
-Upon decompression, please move ```llr``` to ```your_root/anaconda3/envs/```. Then the environment can be activated by ```conda activate llr```.
+Upon decompression, please move ```mssa``` to ```your_root/anaconda3/envs/```. Then the environment can be activated by ```conda activate mssa```.
 
 ## Data Preparation
 The preprocessed fundus data can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1axgu3-65un-wA_1OH-tQIUIEHEDrnS_-?usp=drive_link).
