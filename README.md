@@ -18,7 +18,7 @@ Our Anaconda environment is also available for download from ```llr``` dir.
 Upon decompression, please move ```llr``` to ```your_root/anaconda3/envs/```. Then the environment can be activated by ```conda activate llr```.
 
 ## Data Preparation
-The preprocessed data can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1axgu3-65un-wA_1OH-tQIUIEHEDrnS_-?usp=drive_link).
+The preprocessed fundus data can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1axgu3-65un-wA_1OH-tQIUIEHEDrnS_-?usp=drive_link).
 
 ## Pre-trained Models
 Download SAM vit_h Model from [Google Drive](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth) and drag it into the checkpoint folder.
