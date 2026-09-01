@@ -24,10 +24,10 @@ export TOKENIZERS_PARALLELISM="false"
 # ============================================================================
 
 # 数据集路径 (修改为你的数据集路径)
-DATASET="/home/psxll9/Datasets/Fundus/ORIGA"
+DATASET="/home/psxll9/Datasets/Fundus/Drishti_GS"
 
 # 输出根目录
-OUTPUT_ROOT="/home/psxll9/ProtoMedCLIP/streaming_output/ORIGA/train/mask"
+OUTPUT_ROOT="/home/psxll9/ProtoMedCLIP/streaming_output/Drishti_GS/train/mask"
 
 # Ground truth 目录 (用于评估，可选)
 GT_DIR="${DATASET}/train/mask"
