@@ -22,7 +22,7 @@ from sklearn.cluster import KMeans
 
 # Import custom modules
 from scripts.methods import vision_heatmap_iba
-from alpnet_odE_tr_p0 import ProtoSAMConfig, ImageToImageMatcher
+from alpnet_od import ProtoSAMConfig, ImageToImageMatcher
 from dataloaders.OpticdiscDataset_onlineE_tr_p0 import SupportSet, SimpleOpticDiscDataset
 from collections import defaultdict
 from segment_anything.utils.transforms import ResizeLongestSide
