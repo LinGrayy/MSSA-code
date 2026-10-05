@@ -19,10 +19,11 @@ Upon decompression, please move ```mssa``` to ```your_root/anaconda3/envs/```. T
 
 ## Data Preparation
 The preprocessed fundus data can be downloaded from [Google Drive](https://drive.google.com/drive/folders/1axgu3-65un-wA_1OH-tQIUIEHEDrnS_-?usp=drive_link).
+The lung data can be downloaded from [Baidu Drive](https://drive.google.com/drive/folders/1axgu3-65un-wA_1OH-tQIUIEHEDrnS_-?usp=drive_link).
 
 ## Pre-trained Models
 Download SAM vit_h Model from [Google Drive](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth) and drag it into the checkpoint folder.
-Download MedSAM_CLIP fine-tuned BiomedCLIP Model from [Google Drive](https://drive.google.com/file/d/1jjnZabUlc9_gpcP0d2nz_GNS-EGX0lq5/view?usp=sharing) and drag it into the checkpoint folder.
+Download MedSAM_CLIP fine-tuned BiomedCLIP Model from [Baidu Drive1](https://pan.baidu.com/s/1CTFUUzZIeI-yeWPajsmnZA?pwd=smsp)  [Baidu Drive1](https://pan.baidu.com/s/1H949elVhFmVBjDh-UjE-fg?pwd=smsp)  [Baidu Drive1](https://pan.baidu.com/s/1F25nICXacMk-dzX4m_SCzQ?pwd=smsp) and drag it into the checkpoint folder.
 
 
 ## How to Run
