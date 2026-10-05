@@ -49,11 +49,13 @@ bash MSSA_Lung.sh
 ## Citation ✏️
 If this code is helpful for your research, please cite:
 ```
-@article{li2026memory,
+@inproceedings{li2026memory,
   title={Memory-Supported Synergistic Adaptation for Training-Free Test-Time Medical Image Segmentation},
   author={Li, Lingrui and Pu, Nan and Zhao, Dong and Li, Wenjing and French, Andrew P and Zhong, Zhun and Chen, Xin},
-  journal={arXiv preprint arXiv:2607.17693},
-  year={2026}
+  booktitle={European Conference on Computer Vision},
+  pages={411--429},
+  year={2026},
+  organization={Springer}
 }
 ```
 ## Acknowledgement
