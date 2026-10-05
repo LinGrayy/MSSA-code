@@ -26,6 +26,17 @@ Download SAM vit_h Model from [Google Drive](https://dl.fbaipublicfiles.com/segm
 Download MedSAM_CLIP fine-tuned BiomedCLIP Model from [Google Drive](https://drive.google.com/file/d/1jjnZabUlc9_gpcP0d2nz_GNS-EGX0lq5/view?usp=sharing)  and drag it into the checkpoint folder.
 
 
+* **OD Segmentation**
+```
+python ours.py \
+    --input "${INPUT_DIR}" \
+    --output "${OUTPUT_ROOT}" \
+    --gt-dir "${GT_DIR}" \
+    --sam-checkpoint "${SAM_CHECKPOINT}" \
+    --sam-model-type vit_h \
+    --clip-model-path "${CLIP_MODEL_PATH}" 
+```
+
 ## How to Run
 Please first modify the root in ```MSSA_OD.sh``` and ```MSSA_Lung.sh```, and then run the following command.
 ```
