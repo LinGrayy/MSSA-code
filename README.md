@@ -50,7 +50,7 @@ python ours_lung.py \
 ## How to Run
 Please first modify the root in ```MSSA_OD.sh``` and ```MSSA_Lung.sh```, and then run the following command.
 ```
-# On the OD segmentation task (for different datasets, change the path in DATASET and OUTPUT_ROOT )
+# On the OD segmentation task (for different datasets, change the path in DATASET and OUTPUT_ROOT)
 bash MSSA_OD.sh
 # On the lung MC segmentation task
 bash MSSA_Lung_MC.sh
