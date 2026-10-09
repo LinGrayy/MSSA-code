@@ -10,7 +10,7 @@ for Training-Free Test-Time Medical Image Segmentation](https://arxiv.org/pdf/26
 ```
 CUDA 10.1
 Python 3.7.0
-Pytorch 1.8.0
+Pytorch 2.0.1
 CuDNN 8.0.5
 ```
 Our Anaconda environment is also available for download from [Google Drive](https://drive.google.com/file/d/1fmqEl5HDHjuQ3Ih4vD81B0xOHC5fLSE7/view?usp=drive_link).
@@ -36,14 +36,28 @@ python ours.py \
     --sam-model-type vit_h \
     --clip-model-path "${CLIP_MODEL_PATH}" 
 ```
+* **Lung Segmentation**
+```
+python ours_lung.py \
+    --input "${INPUT_DIR}" \
+    --output "${OUTPUT_ROOT}" \
+    --gt-dir "${GT_DIR}" \
+    --sam-checkpoint "${SAM_CHECKPOINT}" \
+    --sam-model-type vit_h \
+    --clip-model-path "${CLIP_MODEL_PATH}" 
+```
 
 ## How to Run
 Please first modify the root in ```MSSA_OD.sh``` and ```MSSA_Lung.sh```, and then run the following command.
 ```
-# On the OD segmentation task
+# On the OD segmentation task (for different datasets, change the path in DATASET and OUTPUT_ROOT )
 bash MSSA_OD.sh
-# On the lung segmentation task
-bash MSSA_Lung.sh
+# On the lung MC segmentation task
+bash MSSA_Lung_MC.sh
+# On the lung Shenzhen segmentation task
+bash MSSA_Lung_sz.sh
+# On the lung Xray (Covid) segmentation task
+bash MSSA_Lung_xray.sh
 ```
 
 ## Citation ✏️
