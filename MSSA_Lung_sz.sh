@@ -73,7 +73,6 @@ python ours_lung.py \
     --min-warmup 10 \
     --seed 42 \
     --device cuda \
-    --debug \
     --val-path "${INPUT_DIR}" \
     --hyper-opt 
 
