@@ -1280,7 +1280,7 @@ class StreamingOpticDiscPipeline:
             # 确保能找到模型路径
             sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
             
-            from alpnet_odE_tr_p0 import (
+            from alpnet_od import (
                 ProtoSAMConfig, 
                 ImageToImageMatcher,
                 set_seed
@@ -1612,7 +1612,7 @@ class StreamingOpticDiscPipeline:
             
             try:
                 # Fallback to original protosam function
-                from alpnet_odE_tr_p0 import protosam_predict as original_protosam
+                from alpnet_od import protosam_predict as original_protosam
                 
                 pred = original_protosam(
                     args=self._build_protosam_args(),
