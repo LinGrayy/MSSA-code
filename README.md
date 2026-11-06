@@ -23,7 +23,7 @@ The lung data can be downloaded from MC dataset [Baidu Drive1](https://pan.baidu
 
 ## Pre-trained Models
 Download SAM vit_h Model from [Google Drive](https://dl.fbaipublicfiles.com/segment_anything/sam_vit_h_4b8939.pth) and drag it into the checkpoint folder.
-Download MedSAM_CLIP fine-tuned BiomedCLIP Model from [Google Drive](https://drive.google.com/file/d/1jjnZabUlc9_gpcP0d2nz_GNS-EGX0lq5/view?usp=sharing)  and drag it into the checkpoint folder.
+Download MedSAM_CLIP fine-tuned BiomedCLIP Model from [Google Drive](https://drive.google.com/file/d/1jjnZabUlc9_gpcP0d2nz_GNS-EGX0lq5/view?usp=sharing)  and drag it into the checkpoint folder. Also download config.json, configuration_biomed_clip.py and modeling_biomed_clip.py from [Github](https://github.com/HealthX-Lab/MedCLIP-SAMv2/tree/main/saliency_maps/model) and drag them into the same folder as the MedSAM_CLIP fine-tuned BiomedCLIP Model.
 
 ## How to Run
 Please first modify the root in ```MSSA_OD.sh``` and ```MSSA_Lung.sh```, and then run the following command.
